@@ -1,0 +1,175 @@
+:root{
+  --text--color:white;
+  --background-color:rgb(158,80,119);
+--border-color:rgb(212,129,101);
+--decoration--color:rgb(234,115,164);
+
+
+}
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+/* * {
+    margin: 0;
+    padding: 0;
+  } */
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+
+    
+  }
+  nav,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-around;
+  align-items: center;
+  height: 17vh;
+  background-color: var(--background-color);
+  border-radius: 2rem;
+}
+
+.nav-links {
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+a {
+  color:var(--text--color);
+  text-decoration: none;
+  text-decoration-color: var(-);
+}
+
+a:hover {
+  color: var(--text--color);
+  text-decoration: underline;
+  text-decoration-color: var(--decoration--color);
+}
+.logo {
+  font-size: 2rem;
+  color: var(--text--color);
+}
+
+.logo:hover {
+  cursor: default;
+}
+  
+  div.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    
+  }
+  #footer {
+    position: absolute;
+    bottom: 0;
+    border-radius: 2rem;
+    width:98%
+    
+   
+    
+   
+  
+  }
+
+  footer {
+    margin: auto;
+   
+ 
+    background-color: var(--baackground);
+    height: 17vh;
+    margin: 0 1rem;
+    border-radius: 2rem;
+  }
+  footer p {
+    text-align: center;
+
+  }
+  p.paragraph {
+    color: var(--text-color);
+    padding-bottom: 2rem;
+  }
+  ul.nav-links{
+    justify-content: space-evenly;
+  }
+  
+
+  h1{
+    color: var(--background-color);
+    text-align: center;
+  }
+  label{
+    font-size: larger;
+    font-weight: bolder;
+    color: var(--decoration--color);
+    margin: 1rem;
+  }
+
+  div#answer-messege{
+    color:var(--decoration--color);
+    margin-top: 1rem;
+    font-size: 20px;
+
+    
+  }
+  input{
+    border: 0.2rem solid var(--border-color);
+    border-radius: 2rem;
+    padding: 1rem;
+    color:var(--background-color)
+  }
+  button#is-triangle-btn{
+    margin-top: 1rem;
+  text-decoration: none;
+    padding:0.6rem;
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    color: white;
+    
+
+  }
+  button#submit-btn{
+    margin-top:1rem;
+    margin-bottom:1rem;
+    width:6rem;
+    border:0.1rem solid var(--border-color);
+    background-color: var(--background-color);
+    color: white;
+    border-radius: .5rem;
+
+  }
+  div.display-score{
+    font-size: 20px;
+   color: var(--border-color);
+  }
+  button#get-area{
+    margin-top: 1rem;
+  text-decoration: none;
+    padding:0.6rem;
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    color: white;
+    
+
+  }
+  button#check-hypotenuse{
+    margin-top: 1rem;
+  text-decoration: none;
+    padding:0.6rem;
+    background-color: var(--background-color);
+    border-radius: 1rem;
+    color: white;
+    
+
+  }
